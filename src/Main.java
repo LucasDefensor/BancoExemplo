@@ -8,6 +8,7 @@ public class Main {
         Usuario pessoa = new Usuario();
 
         try {
+            //Exemplo de pessoa para teste: todos os dados são fictícios e servem apenas para exemplificação.
             pessoa.setCPF("123.456.789-12");
             pessoa.setNome("Exemplo Nome Completo");
             pessoa.setDataNascimento(new SimpleDateFormat("dd/MM/yyyy").parse("01/01/2000"));
